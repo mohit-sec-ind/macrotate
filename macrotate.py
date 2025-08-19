@@ -41,7 +41,7 @@ def main():
     print(f"[+] Starting MAC rotation every 180s on {INTERFACE}")
     while True:
         change_mac()
-        time.sleep(180)  # wait 1 minute
+        time.sleep(180)  # wait 3 minutes
 
 if __name__ == "__main__":
     if os.geteuid() != 0:
