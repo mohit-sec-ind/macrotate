@@ -1,0 +1,10 @@
+Hey fellas! 
+
+Here is how to use this python script to randomize your system's mac address every 60 seconds! 
+
+Step 1. Save the script as macrotate.py.
+
+Step 2. Make it executable: chmod +x macrotate.py
+
+Step 3.Run as root: sudo ./macrotate.py
+
